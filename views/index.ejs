@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transactions Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Transactions Dashboard</h1>
+        </header>
+
+        <div class="controls">
+            <label for="monthSelect">Select Month:</label>
+            <select id="monthSelect">
+             
+            </select>
+
+            <input type="text" id="searchBox" placeholder="Search Transactions">
+        </div>
+
+        <table id="transactionsTable">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+
+        <div class="pagination">
+            <button id="prevButton">Previous</button>
+            <button id="nextButton">Next</button>
+        </div>
+
+        <div id="statistics">
+            
+        </div>
+
+        <div id="chart">
+          
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
